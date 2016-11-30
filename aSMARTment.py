@@ -9,7 +9,7 @@ import os
 def readTempRaw():
     #f = open(device_file, 'r')
     #lines = f.readlines()
-    lines =('50 05 4b 46 7f ff 0c 10 1c : crc=1c YES', '50 05 4b 46 7f ff 0c 10 1c t=13456')
+    lines =('50 05 4b 46 7f ff 0c 10 1c : crc=1c YES', '50 05 4b 46 7f ff 0c 10 1c t=13456') ## if not running on the pi
     #f.close()
     return lines
 
